@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    width: 400;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.form_group {
+    margin-bottom: 10;
+    position: relative;
+}
+
+label {
+    display: contents;
+    margin-bottom: 13;
+}
+
+input, textarea {
+    width: 100;
+    border: 1;
+    border-radius: 8;
+    font-size: medium;
+}
+
+button {
+    width: 100;
+    background-color: blue;
+    color: white;
+    font-size: medium;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+.tooltip {
+    position: absolute;
+    color: white;
+    font-size: medium;
+    border-radius: 5;
+
+}
+
+.char-count {
+    text-align: right;
+    font-size: medium;
+    color: grey;
+
+}
+
+.Feedback-entry {
+    background: fixed;
+    margin-top: 10;
+}
+
